@@ -25,6 +25,7 @@
 
 	    // show modal
 	    mui.overlay('on', modalEl);
+	    "This project is still in production, please try again later."
 	  }
 	</script>
   </head>
@@ -60,13 +61,18 @@
 		<button class="mui-btn mui-btn--primary mui-btn--raised">Details</button>
 		<button class="mui-btn mui-btn--primary" onclick="activateModal()">Download</button>
 		<button class="mui-btn mui-btn--primary mui-btn--raised">View in Github</button>
-		<button class="mui-btn mui-btn--primary" onclick="activateModal("This project is still in production, please try again later.")">View in PGE</button>
+		<button class="mui-btn mui-btn--primary" onclick="activateModal()">View in PGE</button>
 	      </td>
 	    </tr>
 	</table>
       </div>
     </div>
   </body>
+  <div id="mui-overlay" tabindex="-1">
+	  <div style="width: 400px; height: 300px; margin: 100px auto; background-color: rgb(255, 255, 255);">
+		  21012
+	 </div>
+  </div>
   <footer>
 	<div class="mui-appbar">
 		<!-- content -->
