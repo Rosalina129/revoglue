@@ -48,7 +48,20 @@ body {
                 <table width="100%">
                     <tr>
                         <td align="center">
-                            <button class="mui-btn mui-btn--primary mui-btn--raised">详情</button> <button class="mui-btn mui-btn--primary mui-btn--raised">下载</button> <button class="mui-btn mui-btn--primary mui-btn--raised">在 Github 查看</button> <button class="mui-btn mui-btn--primary mui-btn--raised">在 百度贴吧 查看</button> <button class="mui-btn mui-btn--primary mui-btn--raised">在 Bilibili 查看</button>
+                            <button class="mui-btn mui-btn--primary mui-btn--raised">详情</button>
+ <div class="mui-dropdown mui-btn--raised">
+  <button class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+    Download
+    <span class="mui-caret"></span>
+  </button>
+  <ul class="mui-dropdown__menu mui-dropdown__menu--right">
+    <li><a href="#">百度网盘</a></li>
+    <li><a href="#">Lanzous</a></li>
+    <li><a href="#">Github Release</a></li>
+    <li><a href="#">PGE</a></li>
+  </ul>
+</div>
+                            <button class="mui-btn mui-btn--primary mui-btn--raised">在 Github 查看</button> <button class="mui-btn mui-btn--primary mui-btn--raised">在 百度贴吧 查看</button> <button class="mui-btn mui-btn--primary mui-btn--raised">在 Bilibili 查看</button>
                         </td>
                     </tr>
                 </table>
