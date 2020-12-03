@@ -52,7 +52,19 @@ body {
                 <table width="100%">
                     <tr align="center">
                         <td>
-                            <button class="mui-btn mui-btn--primary mui-btn--raised">Details</button> <button class="mui-btn mui-btn--primary mui-btn--raised">Download</button> <button class="mui-btn mui-btn--primary mui-btn--raised">View in Github</button> <button class="mui-btn mui-btn--primary mui-btn--raised">View in PGE</button>
+                            <button class="mui-btn mui-btn--primary mui-btn--raised">Details</button> <div class="mui-dropdown">
+  <button class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+    Download
+    <span class="mui-caret"></span>
+  </button>
+  <ul class="mui-dropdown__menu mui-dropdown__menu--right">
+    <li><a href="#">MediaFire</a></li>
+    <li><a href="#">PGE</a></li>
+    <li><a href="#">Website 1</a></li>
+    <li><a href="#">Website 2</a></li>
+  </ul>
+</div>
+                            <button class="mui-btn mui-btn--primary mui-btn--raised">Download</button> <button class="mui-btn mui-btn--primary mui-btn--raised">View in Github</button> <button class="mui-btn mui-btn--primary mui-btn--raised">View in PGE</button>
                         </td>
                     </tr>
                 </table>
