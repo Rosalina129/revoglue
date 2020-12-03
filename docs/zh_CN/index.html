@@ -18,9 +18,32 @@ body {
                 
             box-shadow: darkgrey 2px 0px 5px 5px ;//边框阴影
             background-color : #efefef;
-            margin-top : 1.75em;
-            margin-bottom : 1.75em;
             }
+            section.main{
+            background-image: url(/revoglue/bg1.png);
+                background-position: 100% 100%;}
+            section.details{
+            background-image: url(/revoglue/bg2.png);
+                background-position: 100% 100%;}
+            section.download{
+            background-image: url(/revoglue/bg3.png);
+                background-position: 100% 100%;}
+            section.about{
+            background-image: url(/revoglue/bg4.png);
+                background-position: 100% 100%;}
+            
+            section.bgscroll{
+            position: relative;
+            height: auto;
+            padding: 180px 0px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+                }
         </style>
     </head>
     <body>
@@ -47,6 +70,7 @@ body {
                 </tr>
             </table>
         </div><!-- example content -->
+        <section class="bgscroll main">
         <div class="mui-container">
             <div class="mui-panel" align="center">
                 <h1>
@@ -74,21 +98,28 @@ body {
                 </table>
             </div>
         </div>
+            </section>
+        <section class="bgscroll details">
         <div name="details">
         <table width="100%" class="bar">
             <tr><td align="center"><h1>详情</h1></td></tr>
             </table>
         </div>
+           </section>
+        <section class="bgscroll download">
         <div name="download">
         <table width="100%" class="bar">
             <tr><td align="center"><h1>下载</h1></td></tr>
             </table>
         </div>
+           </section>
+        <section class="bgscroll about">
         <div name="screenshot">
         <table width="100%" class="bar">
             <tr><td align="center"><h1>截图</h1></td></tr>
             </table>
         </div>
+           </section>
         <div class="mui-appbar">
             <!-- content -->
             Copyright 2018-2020 Unreal_Neo
