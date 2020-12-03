@@ -21,6 +21,22 @@ body {
             margin-top : 1.75em;
             margin-bottom : 1.75em;
             }
+            section.main{
+            background-image: url(../bg1.jpg);
+                background-position: 100% 100%;}
+            
+            section.bgscroll{
+            position: relative;
+            height: auto;
+            padding: 180px 0px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+                }
         </style>
     </head>
     <body>
@@ -47,7 +63,7 @@ body {
                 </tr>
             </table>
         </div><!-- example content -->
-        <div class="bg1"></div>
+        <section class="bgscroll main">
         <div class="mui-container">
             <div class="mui-panel" align="center">
                 <h1>
@@ -75,6 +91,7 @@ body {
                 </table>
             </div>
         </div>
+            </section>
         <div name="details">
         <table width="100%" class="bar">
             <tr><td align="center"><h1>详情</h1></td></tr>
