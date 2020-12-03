@@ -14,6 +14,19 @@
         font-family: "Roboto", "Segoe UI", Helvetica, Arial;
       }
     </style>
+	  <script>
+	    function activateModal() {
+	    // initialize modal element
+	    var modalEl = document.createElement('div');
+	    modalEl.style.width = '400px';
+	    modalEl.style.height = '300px';
+	    modalEl.style.margin = '100px auto';
+	    modalEl.style.backgroundColor = '#fff';
+
+	    // show modal
+	    mui.overlay('on', modalEl);
+	  }
+	</script>
   </head>
   <body>
   <header>
@@ -45,9 +58,9 @@
 	    <tr align = "center">
 	      <td>
 		<button class="mui-btn mui-btn--primary mui-btn--raised">Details</button>
-		<button class="mui-btn mui-btn--primary mui-btn--raised">Download</button>
+		<button class="mui-btn mui-btn--primary" onclick="activateModal()">Download</button>
 		<button class="mui-btn mui-btn--primary mui-btn--raised">View in Github</button>
-		<button class="mui-btn mui-btn--primary mui-btn--raised">View in PGE</button>
+		<button class="mui-btn mui-btn--primary" onclick="activateModal("This project is still in production, please try again later.")">View in PGE</button>
 	      </td>
 	    </tr>
 	</table>
