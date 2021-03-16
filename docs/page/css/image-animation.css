@@ -1,0 +1,19 @@
+@keyframes stara{
+ 0% {
+ top:769px;
+ left:332px;transform:rotate(254deg);opacity:0;
+ }
+100% {
+ top:468px;
+ left:219px;transform:rotate(-39deg);opacity:0.4;
+}
+}
+.star-image1{
+ top:468px;
+ left:219px;
+width:80px;
+height:80px;opacity:0.4;
+position:relative;transform:rotate(-39deg);
+animation-name:stara;
+animation-duration: 3s;
+}

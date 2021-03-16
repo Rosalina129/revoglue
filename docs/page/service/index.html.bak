@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="../css/material.min.css">
+		<script defer src="../js/material.min.js">
+		</script>
+		<link rel="stylesheet" href="../css/custom.css">
+		<link rel="stylesheet" href="../css/image-animation.css">
+	</head>
+	<body>
+		</style>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<!-- Title -->
+					<span class="mdl-layout-title modern-font">
+						Services
+					</span>
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer">
+					</div>
+					<!-- Navigation. We hide it in small screens. -->
+					<nav class="mdl-navigation mdl-layout--large-screen-only modern-font">
+						<a class="mdl-navigation__link" href="./service.html">
+							Services
+						</a>
+						<a class="mdl-navigation__link" href="./creation.html">
+							Creations
+						</a>
+						<a class="mdl-navigation__link" href="./contact.html">
+							Contact me
+						</a>
+						<a class="mdl-navigation__link" href="./site.html">
+							Sites
+						</a>
+					</nav>
+				</div>
+			</header>
+			<main class="mdl-layout__content">
+				<div class="page-content mdl-shadow--2dp">
+					<!-- Your content goes here -->
+					<div class="assets-images">
+						<div class="star-image1">
+							<img src="./image/module-apps/star.svg">
+							</img>
+						</div>
+					</div>
+					<div class="contact-main dark-theme-font" align="center" width="100%">
+						<div class="contact-container align-center modern-font light-background-font">
+							<div class="title-head-text align-center">
+								<div class="animation-title">
+									Services
+								</div>
+							</div>
+							<div class="title-second-text align-center" style="padding-top:1.2em;">
+								<div class="animation-title2">
+									Tutorials, services, some tedious things, can serve you.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+				<div class="title-head">
+					Tutorial
+				</div>
+				<div class="tutorial-page">
+					<div class="mdl-color--green-800" style="top:32px; position:relative;">
+						<div class="sm64bt">
+							<div class="sm64bt-card mdl-shadow--2dp through mdl-shadow--16dp mdl-color--white" style="width:60%;">
+								<div class="mdl-card__title sm64bt-background">
+									<h2 class="mdl-card__title-text" style="line-height:120px; height:120px;">
+										Super Mario 64 Blopper Tutorial
+									</h2>
+								</div>
+								<div class="mdl-card__supporting-text">
+									What happens to SM64 with a meme? This tutorial can help you!
+                                    <div class="mdl-card__actions">
+                <div>Get Started</div>
+              </div>
+                                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                                  <i class="material-icons">add</i>
+                                </button>
+								<div class="mdl-card__menu">
+									<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+										<i class="material-icons">
+											share
+										</i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+				<div class="title-head">
+					List
+				</div>
+				<div class="space"></div>
+			</main>
+		</div>
+	</body>
+
+</html>

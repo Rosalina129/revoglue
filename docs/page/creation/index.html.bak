@@ -1,0 +1,232 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="../css/material.min.css">
+		<script defer src="../js/material.min.js">
+		</script>
+		<link rel="stylesheet" href="../css/custom.css">
+		<link rel="stylesheet" href="../css/image-animation.css">
+	</head>
+	<body>
+		</style>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<!-- Title -->
+					<span class="mdl-layout-title modern-font">
+						Creations
+					</span>
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer">
+					</div>
+					<!-- Navigation. We hide it in small screens. -->
+					<nav class="mdl-navigation mdl-layout--large-screen-only modern-font">
+						<a class="mdl-navigation__link" href="../service/index.html">
+							Services
+						</a>
+						<a class="mdl-navigation__link" href="../creation/index.html">
+							Creations
+						</a>
+						<a class="mdl-navigation__link" href="../contact/index.html">
+							Contact me
+						</a>
+						<a class="mdl-navigation__link" href="../site/index.html">
+							Sites
+						</a>
+					</nav>
+				</div>
+			</header>
+			<main class="mdl-layout__content">
+				<div class="page-content mdl-shadow--2dp">
+					<div class="back-buttons" style="position: relative; top:20px;left:20px; display:flex;">
+						<table><tr><td align="center">
+					<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onClick="javascript:window.location.href='./index.html'">
+					  <i class="material-icons">navigate_before</i></td>
+					</button>
+					<td><div class="eastern-font" style="position:relative;left:8px; font-size:24px; line-height:80px;height:80px;">Back</div></td></tr></table>
+					</div>
+					<!-- Your content goes here -->
+					<div class="assets-images">
+						<div class="star-image1">
+							<img src="./image/module-apps/star.svg">
+							</img>
+						</div>
+					</div>
+					<div class="contact-main dark-theme-font" align="center" width="100%">
+						<div class="contact-container align-center modern-font light-background-font">
+							<div class="title-head-text align-center">
+								<div class="animation-title">
+									My Creations
+								</div>
+							</div>
+							<div class="title-second-text align-center" style="padding-top:1.2em;">
+								<div class="animation-title2">
+									All my assets are here, and I share some of the interesting things I've
+									made!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wide-module">
+					<!-- Square card -->
+					<style>
+						.demo-card-square.mdl-card { width: 256px; height: 192px;} .demo-card-square
+						> .mdl-card__title { color: #fff; background-color:#46B6AC; } #category-lists{ width:80%;}
+						.category-lists {
+							margin: auto;
+							width:80%;
+							position:relative;
+							left:0px;
+							display:flex;
+							flex-wrap: wrap;
+						}
+						.module-list{
+							margin: 12 auto 8 auto;
+						}
+						.threed-model-list{
+							background:  url('./image/mdico/Model.png');
+							background-position: center;
+							background-size: 240px;
+							background-repeat: no-repeat;
+						}
+						.sprite-list{
+							background:  url('./image/mdico/Spriter.png');
+							background-position: center;
+							background-size: 240px;
+							background-repeat: no-repeat;
+						}
+						.subclass-lists {
+							margin: auto;
+							width:80%;
+							position:relative;
+							left:0px;
+							display:flex;
+							flex-wrap: wrap;
+						}
+						.subclass-button{
+							width:212px;
+							height:32px;
+							text-transform:none;
+							margin: 12 auto 8 auto;
+						}
+					</style>
+					<div style="padding-bottom: 128px">
+					</div>
+					<span class="mdl-layout-title modern-font lefts">
+						Category
+					</span>
+					<div style="padding-bottom: 64px">
+					</div>
+					<div class="category-lists">
+						<!-- Category Lists -->
+						
+						<div class="demo-card-square mdl-card mdl-shadow--2dp module-list">
+							<div class="mdl-card__title mdl-card--expand threed-model-list mdl-color--green-900">
+								<h2 class="mdl-card__title-text modern-font">
+									3D Models
+								</h2>
+								<h2 class="numbers eastern-font">
+									2
+								</h2>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									View
+								</a>
+							</div>
+						</div>
+						<div class="demo-card-square mdl-card mdl-shadow--2dp module-list">
+							<div class="mdl-card__title mdl-card--expand sprite-list mdl-color--orange-900">
+								<h2 class="mdl-card__title-text modern-font">
+									Sprites
+								</h2>
+								<h2 class="numbers eastern-font">
+									49
+								</h2>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									View
+								</a>
+							</div>
+						</div>
+						<div class="demo-card-square mdl-card mdl-shadow--2dp module-list">
+							<div class="mdl-card__title mdl-card--expand">
+								<h2 class="mdl-card__title-text modern-font">
+									SMBX Levels
+								</h2>
+								<h2 class="numbers eastern-font">
+									1
+								</h2>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									View
+								</a>
+							</div>
+						</div>
+						<div class="demo-card-square mdl-card mdl-shadow--2dp module-list">
+							<div class="mdl-card__title mdl-card--expand">
+								<h2 class="mdl-card__title-text modern-font smaller">
+									Minecraft Everything
+								</h2>
+								<h2 class="numbers eastern-font">
+									3
+								</h2>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									View
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- End -->
+					<div style="padding-bottom: 64px">
+					</div>
+					<span class="mdl-layout-title modern-font lefts">
+						List
+					</span>
+					<div style="padding-bottom: 64px">
+					</div>
+					<div class="subclass-lists">
+						<!-- Subclassification block Lists -->
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  Access 0
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  Codes 3
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  Sprites 49
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  SMBX Levels 1
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  SMBX Graphics 2
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  3D Models 2
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  Minecraft Maps 0
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  Minecraft Datapack 1
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  Episodes 16
+</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect subclass-button">
+  Games 0
+</button>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+
+</html>
